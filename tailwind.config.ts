@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['Roboto Mono', 'monospace'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +64,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				darknet: {
+					black: '#000000',
+					dark: '#0a0a0a',
+					gray: {
+						900: '#1a1a1a',
+						800: '#333333',
+						700: '#4a4a4a',
+						600: '#666666'
+					},
+					green: {
+						400: '#00ff41',
+						500: '#00cc33',
+						600: '#00b82d'
+					}
 				}
 			},
 			borderRadius: {
